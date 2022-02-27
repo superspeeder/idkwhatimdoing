@@ -1,4 +1,5 @@
 #pragma once
+#include "kat/fwd.hpp"
 
 namespace kat {
 
@@ -11,7 +12,7 @@ namespace kat {
 	 * 
 	 * An execution context <b>will</b> be created by the generated entry point, which will instantiate your application.
 	*/
-	class ExecutionContext {
+	class ExecutionContext : std::enable_shared_from_this<ExecutionContext> {
 
 	};
 }

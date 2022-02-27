@@ -10,3 +10,6 @@ set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 # Include sub-projects.
 add_subdirectory ("engine")
 add_subdirectory ("app")
+
+set_target_properties(katengine app PROPERTIES CXX_STANDARD 20)
+set_target_properties(katengine app PROPERTIES CXX_STANDARD_REQUIRED TRUE)

@@ -1,2 +1,2 @@
-#include "app.hpp"
+#include "testapp.hpp"
 #include <kat/entry_point.hpp>
