@@ -7,7 +7,7 @@
 namespace kat {
 
 	template<typename T>
-	concept applike = std::is_base_of_v<App, T> && requires (const std::shared_ptr<Engine>&e) { T::T(e); };
+	concept applike = std::is_base_of_v<App, T> && requires (Engine* e) { T::T(e); };
 
 	class Engine {
 	public:

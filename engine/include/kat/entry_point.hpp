@@ -27,6 +27,11 @@
 
 
 int main(int argc, char** argv) {
+	std::shared_ptr<kat::ExecutionContext> ctx = std::make_shared<kat::ExecutionContext>(argc, argv);
 
-	
+	kat::Engine* engine = new kat::Engine(ctx);
+
+	engine->launch<KAT_APP_CLASS>();
+
+	return ctx->getExitCode();
 }
