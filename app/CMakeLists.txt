@@ -1,4 +1,4 @@
-cmake_minimum_required (VERSION 3.8)
+cmake_minimum_required (VERSION 3.20.4)
 
 file(GLOB_RECURSE APP_SOURCES CONFIGURE_DEPENDS src/*.cpp src/*.c src/*.cc src/*.cxx)
 file(GLOB_RECURSE APP_HEADERS CONFIGURE_DEPENDS include/*.hpp include/*.h include/*.hxx)

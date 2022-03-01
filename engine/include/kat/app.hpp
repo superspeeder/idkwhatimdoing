@@ -3,6 +3,7 @@
 #include <memory>
 
 #include "kat/engine.hpp"
+#include "kat/window.hpp"
 
 namespace kat {
 	class App {

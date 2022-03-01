@@ -22,6 +22,6 @@ namespace kat {
 
 	private:
 
-
+		int m_ExitCode = EXIT_SUCCESS;
 	};
 }
