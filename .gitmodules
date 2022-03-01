@@ -1,0 +1,3 @@
+[submodule "libs/eventpp"]
+	path = libs/eventpp
+	url = https://github.com/wqking/eventpp.git
